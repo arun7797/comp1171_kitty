@@ -1,0 +1,57 @@
+    1  ls
+    2  unzip week1data.zip 
+    3  rm week1data.zip 
+    4  ls
+    5  clear
+    6  cat data1.txt 
+    7  cat data2.txt 
+    8  cat data1.txt data2.txt
+    9  cat *.txt
+   10  cat *.txt > all.txt
+   11  ls
+   12  cat all
+   13  cat all.txt
+   14  rm all.txt
+   15  grep "Culture" *.txt
+   16  grep "Culture" .txt > boy_george.txt
+   17  grep "Culture" *.txt > boy_george.txt
+   18  grep "Abba" *.txt | cut -d "," -f 2,3
+   19  grep "Abba" *.txt | cut -d "," -f 2,4
+   20  cat *.txt | head -n 25
+   21  cat *txt
+   22  rm cat *txt
+   23  cat *txt | head -41 | tail --57
+   24  cat *txt | head -2 | tail -2
+   25  cat *.txt | head -2 | tail-2
+   26  cat *.txt | head -2 | tail -2
+   27  cat *txt | head -25
+   28  cat *.txt | head -25
+   29  unzip
+   30  history
+   31  unzip week1data.zip 
+   32  cat data1.txt 
+   33  cat data2.txt 
+   34  cat data1.txt data2.txt
+   35  cat *.txt | head -25
+   36  cat *.txt | head -41 | tail -57
+   37  cat *.txt | head -42 | tail -58
+   38  cat *.txt | head -42 | tail -1
+   39  grep "Eminem" *.txt
+   40  grep "1992" *.txt
+   41  grep "Pink Floyd" *.txt
+   42  grep "Pink Floyd" *.txt | cut -f 4
+   43  grep "Pink Floyd" *.txt | cut -f 1,2
+   44  grep "Pink Floyd" *.txt | cut -d "," 4
+   45  grep "Pink Floyd" *.txt | cut -d "," -f 4
+   46  sort "1970" *.txt
+   47  grep "1970" *.txt | sort 
+   48  grep "1970" *.txt | cut -d "," -f 2,3 | sort
+   49  grep "naughties" *.txt |  ls
+   50  grep "2000-2009" *.txt
+   51  ls
+   52  cat data*txt | grep "197" | cut -d "," -f 2 | sort
+   53  cat data*.txt | grep "200[0-9]" > naughties.txt
+   54  ls
+   55  cat naughties.txt 
+   56  history 
+   57  history > notes.txt
